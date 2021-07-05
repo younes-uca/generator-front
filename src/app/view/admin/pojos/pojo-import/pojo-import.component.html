@@ -1,0 +1,13 @@
+
+<h2 class="">Insert Entites Yaml in the Text Area Below</h2>
+
+<div class="card p-fluid p-formgrid p-grid">
+    <div class="p-field p-col">
+        <textarea pInputTextarea [(ngModel)]="requestVo.yamlText" rows="20" placeholder="Enter Yaml Content" ></textarea>
+
+    </div>
+    <div class="dad">
+        <p-button class="cen"   label="Send " icon="pi pi-check" iconPos="left"  (click)="importYaml()" ></p-button>
+    </div>
+</div>
+
